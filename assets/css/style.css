@@ -1,0 +1,606 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+    background: none;
+}
+
+body {
+    font-size: 16px;
+    font-family: Raleway, "Red Hat Display", Sans-serif, Roboto;
+}
+
+/*Header Section*/
+.header {
+    padding: 10px 0;
+}
+
+.header .navbar-brand img {
+    width: 184px;
+    height: 46px;
+}
+
+.header .navbar-nav {
+    padding-left: 5%;
+}
+
+.header .nav-item {
+    text-transform: uppercase;
+    padding: 0 5%;
+}
+
+.header .nav-link {
+    color: #000;
+}
+
+.header .nav-link:hover {
+    color: #3e54f6;
+}
+
+.header .row .h-btn {
+    background: #000645;
+    border-radius: 25px;
+    padding: 10px 5%;
+    font-weight: bold;
+    margin: 0px 0 0 30%;
+}
+
+/*Hero Section*/
+.hero {
+    padding: 0px 0 200px 0;
+    background-color: transparent;
+    background-image: linear-gradient(94.95deg, #e9f8ff 0%, #f7eefe 63.86%);
+}
+
+.hero .row .one {
+    margin-top: 200px;
+}
+
+.hero .row .one,
+.hero .row .two {
+    color: #000645;
+    font-weight: bold;
+    font-size: 5em;
+    font-family: "Red Hat Display", Sans-serif;
+}
+
+.hero .row h4 {
+    color: #666a8f;
+    padding: 20px 0;
+    font-size: 1.5em;
+}
+
+.hero .row .btn-1 {
+    background: #61ce70;
+    text-transform: uppercase;
+    border-radius: 25px;
+    padding: 15px 4%;
+    font-weight: bold;
+}
+
+.hero .row h5 {
+    color: #666a8f;
+    padding: 30px 0;
+    font-size: 1.5em;
+}
+
+.hero .row h5 i {
+    color: #3e54f6;
+    padding-right: 3%;
+}
+
+.hero .row .picture-1 {
+    padding: 0 0 0 20%;
+}
+
+.hero .row .picture-1 h2 {
+    color: #3e54f6;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 4em;
+    position: relative;
+    bottom: 100px;
+    left: 0;
+}
+
+.hero .row .picture-1 h2 span {
+    font-size: 7em;
+    position: relative;
+    top: 200px;
+    left: 0px;
+}
+
+.hero .row .picture-1 h3 {
+    color: #3e54f6;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 2em;
+    position: relative;
+    left: 320px;
+    bottom: 90px;
+    float: left;
+}
+
+/*Webhosting Section*/
+&
+
+/*Cloudhosting Section*/
+.web .container {
+    position: relative;
+    left: 0;
+    bottom: 200px;
+}
+
+.web,
+.cloud {
+    padding: 50px 0 30px 0;
+    background: #f8fafd;
+}
+
+.cloud {
+    padding: 0 0 150px 0;
+}
+
+.web .container,
+.cloud .container {
+    background: #fff;
+    padding: 50px 0 100px 0;
+    box-shadow: 0px 0px 40px #bbbaba;
+}
+
+.web .image,
+.cloud .image {
+    margin: 40px 5% 0 5%;
+}
+
+.web .row h2,
+.cloud .row h2 {
+    text-transform: uppercase;
+    color: #000645;
+    font-weight: bold;
+    padding: 40px 0 0 10%;
+    font-size: 3em;
+    font-family: "Red Hat Display", Sans-serif;
+}
+
+.cloud .row h2 {
+    padding: 40px 0 0 5%;
+}
+
+.web .row h4,
+.cloud .row h4 {
+    color: #666a8f;
+    padding: 10px 0 0 10%;
+    font-size: 1.5em;
+}
+
+.web .row h5,
+.web .row h1,
+.cloud .row h5,
+.cloud .row h1 {
+    color: #3e54f6;
+    padding: 10px 0 0 10%;
+}
+
+.web .row h1,
+.cloud .row h1 {
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+.cloud .row h1,
+.cloud .row h4,
+.cloud .row h5 {
+    padding: 10px 0 0 5%;
+}
+
+.web .row h1,
+.web .row h1 span h5,
+.cloud .row h1,
+.cloud .row h1 span h5,
+.last .row .second h2 span .head-1 {
+    font-weight: bolder;
+}
+
+.web .row h1 span,
+.cloud .row h1 span,
+.last .row .second h2 span {
+    display: inline-block;
+}
+
+.web .row .btn-2,
+.cloud .row .btn-2,
+.industry .btn {
+    background: #000645;
+    text-transform: uppercase;
+    border-radius: 25px;
+    padding: 15px 4%;
+    font-weight: bold;
+    margin: 10px 0 0 10%;
+}
+
+.cloud .row .btn-2 {
+    margin: 10px 0 0 5%;
+}
+
+.web .row .btn-2 i,
+.cloud .row .btn-2 i,
+.industry .btn i,
+.hero .row .btn-1 i {
+    padding: 0 0 0 15px;
+}
+
+.web .row .btn-2:hover,
+.cloud .row .btn-2:hover,
+.header .row .h-btn:hover,
+.hero .row .btn-1:hover {
+    background: #3e54f6;
+}
+
+/*Built Section*/
+.built {
+    padding: 100px 0;
+}
+
+.built .row h2 {
+    padding: 50px 0;
+    color: #000645;
+    font-weight: bolder;
+    white-space: 5px;
+    font-size: 3em;
+    font-family: "Red Hat Display", Sans-serif;
+}
+
+.built .row h4 {
+    color: #666a8f;
+    line-height: 30px;
+    font-size: 1.5em;
+}
+
+.built .row .first {
+    border: 2px solid lightgrey;
+    padding: 50px 2% 20px 2%;
+    margin: 30px 2% 7px 2%;
+    text-align: left;
+    transition: 300ms linear all;
+}
+
+.built .row .first:hover {
+    border: 0px solid lightgrey;
+    box-shadow: 0px 0px 40px #bbbaba;
+}
+
+.built .row .first h3 {
+    color: #000645;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 1.3em;
+}
+
+.built .row .first h5 {
+    color: #666a8f;
+    padding: 15px 10% 15px 0;
+    font-size: 1.2em;
+}
+
+.built .row .first i {
+    float: right;
+    font-size: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.built .row .first i:hover,
+.built .row .first h3:hover {
+    color: #3e54f6;
+}
+
+/*Industry Section*/
+.industry {
+    background: #4054b2;
+    padding: 100px 0;
+}
+
+.industry h2 {
+    padding: 20px 0;
+    font-weight: bold;
+    word-spacing: 5px;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 3em;
+}
+
+.industry .btn {
+    background: #61ce70;
+    margin: 0;
+}
+
+.industry .btn:hover {
+    background: #000645;
+}
+
+.industry h2 span {
+    display: block;
+}
+
+/*slider Section*/
+.slider {
+    padding: 100px 0 100px 0;
+}
+
+.slider .row h2 {
+    color: #000645;
+    font-weight: bolder;
+    padding-bottom: 50px;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 3em;
+}
+
+.slider .row .card {
+    border: 2px solid lightgrey;
+    transition: 300ms linear all;
+}
+.slider .row .card :hover
+{
+    border: 0px solid lightgrey;
+    box-shadow: 0px 0px 40px #bbbaba;
+}
+.slider .row .card-title:hover ,.slider .card-link:hover , .slider .card-img-top{
+    box-shadow: none;
+}
+.slider .card-title {
+    padding: 50px 3% 20px 8%;
+    color: #000645;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.slider .card-link {
+    padding-left: 4%;
+    color: #3e54f6;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+/*last Section*/
+.last {
+    padding: 100px 0;
+    background-color: transparent;
+    background-image: linear-gradient(94.95deg, #e9f8ff 0%, #f7eefe 63.86%);
+}
+
+.last .row .head {
+    color: #000645;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 3em;
+}
+
+.last .row .second,
+.last .row .third,
+.last .row .fourth {
+    padding: 50px 8%;
+    background: #fff;
+    height: 570px;
+}
+
+.last .row .second h4,
+.last .row .third h4,
+.last .row .fourth h4 {
+    color: #000645;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding-right: 25%;
+}
+
+.last .row .second h6,
+.last .row .third h6,
+.last .row .fourth h6 {
+    padding-top: 20px;
+    color: #3e54f6;
+    font-size: 1em;
+}
+
+.last .row .second h2,
+.last .row .third h2,
+.last .row .fourth h2 {
+    color: #3e54f6;
+    font-weight: bolder;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 3.5em;
+}
+
+.last .row .second .head-2,
+.last .row .third .head-2,
+.last .row .fourth .head-2 {
+    font-size: 1.2em;
+}
+
+.last .row .second ul,
+.last .row .third ul,
+.last .row .fourth ul {
+    float: left;
+    padding: 0;
+}
+
+.last .row .second .head-2,
+.last .row .third .head-2,
+.last .row .fourth .head-2,
+.last .row .second ul li,
+.last .row .third ul li,
+.last .row .fourth ul li {
+    color: #666a8f;
+}
+
+.last .row .second .btn-3,
+.last .row .third .btn-3,
+.last .row .fourth .btn-3 {
+    background: #61ce70;
+    text-transform: uppercase;
+    border-radius: 25px;
+    padding: 15px 10%;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.last .row .second .btn-3:hover,
+.last .row .third .btn-3:hover,
+.last .row .fourth .btn-3:hover {
+    background: #3e54f6;
+}
+
+.last .row .second .btn-3 i,
+.last .row .third .btn-3 i,
+.last .row .fourth .btn-3 i {
+    padding: 0 0 0 15px;
+}
+
+.last .row .second ul li,
+.last .row .third ul li,
+.last .row .fourth ul li {
+    padding: 5px 0 5px 5%;
+    font-size: 1.1em;
+}
+
+.last .row .second ul li i,
+.last .row .third ul li i,
+.last .row .fourth ul li i {
+    color: #3e54f6;
+    padding-right: 10px;
+    font-size: 1.2em;
+}
+
+.last .row .third h2 span .head-1,
+.last .row .fourth h2 span .head-1 {
+    font-weight: bolder;
+    display: inline-block;
+}
+
+/*Footer Section*/
+.footer {
+    background: #000;
+    padding: 50px 0 20px 0;
+}
+
+.footer .footer-img img {
+    width: 204px;
+    height: 76px;
+}
+
+.footer .row h5 {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 30px 0;
+    font-size: 1em;
+}
+
+.footer .row .nav-1 {
+    margin: 0 10% 0 0;
+    padding: 0;
+}
+
+.footer .row .nav-1 .list-1 {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.footer .row .nav-1 .list-1 .anker-1 {
+    display: inline-block;
+    text-decoration: none;
+    color: grey;
+    font-size: 0.8em;
+}
+
+.footer .row .nav-1 .list-1 .anker-1:hover,
+.footer .row .nav-2 .list-2 .anker-2,
+.footer .row p a {
+    color: #fff;
+}
+
+.footer .row form {
+    width: 100%;
+    border-radius: 50px;
+    background: #151515;
+    margin: 10px 0 20px 0%;
+    color: grey;
+    padding: 5px 0;
+}
+
+.footer .row form input {
+    color: gray;
+}
+
+.footer .row form button i {
+    color: #fff;
+}
+
+.footer .row form input[type="email"] {
+    padding: 12px 5%;
+    width: 80%;
+}
+
+.footer .row form button i {
+    cursor: pointer;
+}
+
+.footer .row form button :hover,
+.footer .row .nav-2 .list-2:hover .anker-2,
+.footer .row p a:hover {
+    color: #61ce70;
+}
+
+.footer .row .nav-2 .list-2 {
+    float: left;
+    padding: 0 10% 0 0;
+    color: fff;
+    cursor: pointer;
+}
+
+.footer .row .nav-2 .list-2 .anker-2 i {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.footer .row p {
+    color: grey;
+    font-size: 1em;
+    padding-top: 20px;
+}
+
+.footer .row p a {
+    text-decoration: none;
+}
+
+.footer .row p span {
+    padding: 0 0.9% 0 0;
+}
+
+.f-btn {
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+}
+
+.f-btn i {
+    background: #4500f0;
+    color: #fff;
+    border-radius: 100%;
+    padding: 15px 15%;
+    font-size: 30px;
+}
+
+/*.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    border: 2px solid #4500f0;
+    border-radius: 100%;
+    background-color: #4500f0;
+}*/

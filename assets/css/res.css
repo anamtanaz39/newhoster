@@ -1,0 +1,696 @@
+@media screen and (max-width:768px) {
+    body {
+        font-size: 14px;
+    }
+
+    /*header-section*/
+    .header .row .h-btn {
+        margin: 0px 75% 0 0%;
+    }
+
+    /*Hero-Section*/
+
+    .hero .row .one {
+        margin-top: 150px;
+    }
+
+    .hero .row .one ,.hero .row .two , .hero .row .picture-1 h2{
+        font-size: 2.5em;
+    }
+
+    .hero .row h4 {
+        font-size: 0.8em;
+    }
+
+    .hero .row h5 {
+        font-size: 0.9em;
+    }
+
+    .hero .row .picture-1 h2 {
+        bottom: 0px;
+    }
+
+    .hero .row .picture-1 h2 span {
+        font-size: 6em;
+        top: 100px;
+    }
+
+    .hero .row .picture-1 h3 {
+        font-size: 1.5em;
+        bottom: 0;
+        left: 230px;
+    }
+
+    /*Web & Cloud -Section*/
+    .web {
+        padding: 30px 0 0px 0;
+    }
+
+    .cloud {
+        padding: 0px 0 90px 0;
+    }
+
+    .web .container {
+        padding: 50px 0 50px 0;
+    }
+
+    .cloud .container {
+        padding: 50px 0 70px 0;
+    }
+
+    .web .row h2,
+    .cloud .row h2 {
+        font-size: 2em;
+    }
+
+    .cloud .row h2 {
+        padding: 40px 0 0 10%;
+    }
+
+    .web .row h4,
+    .cloud .row h4 {
+        font-size: 1em;
+    }
+
+    .cloud .row h1,
+    .cloud .row h4,
+    .cloud .row h5 {
+        padding: 10px 0 0 10%;
+    }
+
+    .cloud .row .btn-2 {
+        margin: 10px 0 0 10%;
+    }
+
+    .cloud .image {
+        margin: 50px 0% 0 0%;
+    }
+
+    .web .image img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .cloud .image img {
+        width: 350px;
+        height: 230px;
+    }
+
+    /*Built-Section*/
+    .built {
+        padding: 50px 0;
+        margin-top: 20px;
+    }
+
+    .built .row h2 {
+        padding: 20px 0;
+    }
+
+    .built .row h4 {
+        font-size: 1.2em;
+        line-height: 15px;
+    }
+
+    .built .row .first h5 {
+        font-size: 1em;
+    }
+
+    .built .row .first i {
+        padding-top: 10px;
+    }
+
+    /*Industry-Section*/
+    .industry h2 {
+        font-size: 2.5em;
+    }
+
+    /*Slider-SEction*/
+    .slider {
+        padding: 100px 0 50px 0;
+    }
+
+    .slider .card-title {
+        font-size: 1em;
+        padding: 20px 0 10px 0;
+    }
+
+    /*last-Section*/
+    .last .row .head {
+        font-size: 2.5em;
+    }
+
+    .last .row .second,
+    .last .row .third,
+    .last .row .fourth {
+        padding: 30px 3% 30px 8%;
+        display: inline-block;
+        height: 460px;
+    }
+
+    .last .row .second h4,
+    .last .row .third h4,
+    .last .row .fourth h4 {
+        padding-right: 3%;
+        font-size: 1.3em;
+    }
+
+    .last .row .second h2,
+    .last .row .third h2,
+    .last .row .fourth h2 {
+        font-size: 3em;
+    }
+
+    .last .row .second .head-2,
+    .last .row .third .head-2,
+    .last .row .fourth .head-2 {
+        font-size: 1em;
+    }
+
+    .last .row .second .btn-3,
+    .last .row .third .btn-3,
+    .last .row .fourth .btn-3 {
+        padding: 10px 7%;
+    }
+
+    .last .row .second ul li,
+    .last .row .third ul li,
+    .last .row .fourth ul li {
+        font-size: 0.9em;
+    }
+
+    /*footer-Section*/
+    .footer .row h5 {
+        font-size: 1.1em;
+    }
+
+    .footer .row form {
+        width: 100%;
+        margin: 10px 0 20px 0%;
+    }
+
+    .footer .row .nav-1 .list-1 .anker-1 {
+        font-size: 1em;
+    }
+
+    .footer .row .nav-2 .list-2 .anker-2 i {
+        font-size: 20px;
+    }
+
+    .footer .row p {
+        padding-top: 30px;
+        padding-left: 5%;
+    }
+
+    .f-btn i {
+        border-radius: 100%;
+        padding: 12px 12%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    body {
+        font-size: 12px;
+    }
+
+    /*Hero-Section*/
+
+    .hero .row .one ,.hero .row .two {
+        font-size: 3em;
+    }
+
+    .hero .row h4,
+    .hero .row h5 {
+        font-size: 1.3em;
+    }
+
+    .hero .row .picture-1 {
+        padding: 0;
+    }
+
+    .hero .row .picture-1 h2 {
+        font-size: 5em;
+        position: relative;
+        bottom: 0;
+    }
+
+    .hero .row .picture-1 h2 span {
+        font-size: 1em;
+        position: relative;
+        top: 0;
+    }
+
+    .hero .row .picture-1 h3 {
+        font-size: 2em;
+        position: relative;
+        left: 335px;
+        bottom: 49px;
+        font-weight: bolder;
+    }
+
+    /*Web & Cloud -Section*/
+
+    .web .container {
+        padding: 30px 0 10px 0;
+    }
+
+    .cloud .container {
+        padding: 80px 0;
+    }
+
+    .web .row h2,
+    .cloud .row h2 {
+        font-size: 3em;
+        padding: 40px 0 0 10%;
+    }
+
+    .web .row h4,
+    .cloud .row h4 {
+        font-size: 1.5em;
+    }
+
+    .web .image,
+    .cloud .image {
+        margin: 0px 5% 0 0%;
+    }
+
+    .web .image img {
+        width: 544px;
+        height: 348px;
+    }
+
+    .cloud .image img {
+        width: 524px;
+        height: 298px;
+    }
+
+    .web .row h4,
+    .cloud .row h4,
+    .web .row h5,
+    .web .row h1,
+    .cloud .row h5,
+    .cloud .row h1 {
+        padding: 10px 0 0 10%;
+    }
+
+    .web .row .btn-2,
+    .cloud .row .btn-2 {
+        margin: 10px 0 0 10%;
+    }
+
+    /*Built-Section*/
+    .built {
+        padding: 50px 0;
+    }
+
+    .built .row h2 {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .built .row h4 {
+        font-size: 1em;
+        line-height: 10px;
+        text-align: center;
+    }
+
+    .built .row .first {
+        margin: 20px 8% 7px 10%;
+        padding: 50px 5% 20px 5%;
+    }
+
+    .built .row .first h5 {
+        font-size: 1em;
+    }
+
+    .built .row .first i {
+        padding-top: 10px;
+    }
+
+    /*Industry-Section*/
+    .industry h2 {
+        font-size: 2.2em;
+    }
+
+    /*Slider-SEction*/
+    .slider {
+        padding: 100px 0 50px 0;
+    }
+    .slider .card
+    {
+        margin: 20px 10%;
+    }
+    .slider .card-title {
+        font-size: 2em;
+        padding: 50px 0 20px 0;
+    }
+
+    /*last-Section*/
+    .last .row .second,
+    .last .row .third,
+    .last .row .fourth {
+        margin: 10px 0;
+        padding: 50px 7%;
+        display: inline-block;
+    }
+
+    .last .row .second h4,
+    .last .row .third h4,
+    .last .row .fourth h4 {
+        padding-right: 0%;
+        font-size: 1.5em;
+    }
+
+    .last .row .second h2,
+    .last .row .third h2,
+    .last .row .fourth h2 {
+        font-size: 3.5em;
+    }
+
+    .last .row .second .head-2,
+    .last .row .third .head-2,
+    .last .row .fourth .head-2 {
+        font-size: 1.5em;
+    }
+
+    .last .row .second .btn-3,
+    .last .row .third .btn-3,
+    .last .row .fourth .btn-3 {
+        padding: 15px 10%;
+        display: block;
+    }
+
+    .last .row .second ul li,
+    .last .row .third ul li,
+    .last .row .fourth ul li {
+        font-size: 1.1em;
+    }
+
+    /*footer-Section*/
+
+    .footer .row p {
+        padding-top: 50px;
+        padding-left: 10%;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    body {
+        font-size: 11px;
+    }
+
+    .header {
+        text-align: left;
+    }
+
+    .header .navbar-brand img {
+        width: 150px;
+        height: 46px;
+    }
+
+    .header .row .h-btn {
+        padding: 10px 8%;
+        margin: 0px 70% 0 0%;
+    }
+
+    /*Hero-Section*/
+    .hero {
+        text-align: center;
+    }
+
+    .hero .row .picture-1 h3 {
+        position: relative;
+        left: 295px;
+        bottom: 45px;
+    }
+
+    /*Web & Cloud -Section*/
+
+
+    .web,
+    .cloud {
+        text-align: center;
+        display: inline-block;
+        width: 80%;
+        margin-left: 11%;
+        background: #fff;
+    }
+
+    .web .row h2,
+    .cloud .row h2 {
+        font-size: 2.5em;
+        padding: 40px 0 0 0;
+    }
+
+    .web .row h4,
+    .cloud .row h4 {
+        font-size: 1.1em;
+    }
+
+    .web .image,
+    .cloud .image {
+        margin: 0px 5% 0 0%;
+    }
+
+    .web .image img {
+        width: 400px;
+        height: 230px;
+    }
+
+    .cloud .image img {
+        width: 400px;
+        height: 230px;
+    }
+
+    .web .row h4,
+    .cloud .row h4,
+    .web .row h5,
+    .web .row h1,
+    .cloud .row h5,
+    .cloud .row h1 {
+        padding: 10px 0 0 0%;
+    }
+
+    .web .row .btn-2,
+    .cloud .row .btn-2 {
+        margin: 10px 0 0 0%;
+    }
+
+    /*Built-Section*/
+    .built {
+        padding: 50px 0;
+    }
+
+    .built .row h2 {
+        padding: 20px 0;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    .built .row h4 {
+        font-size: 0.9em;
+    }
+
+    .built .row .first {
+
+        width: 80%;
+        margin: 20px 8% 7px 10%;
+        padding: 50px 5% 20px 5%;
+    }
+
+    /*Industry-Section*/
+    .industry {
+        padding: 70px 0;
+    }
+
+    .industry h4 {
+        font-size: 1.4em;
+    }
+
+    .industry h2 {
+        font-size: 2.2em;
+    }
+
+    /*Slider-SEction*/
+    .slider {
+        padding: 100px 0 50px 0;
+    }
+
+    .slider .row h2 {
+        font-size: 2.2em;
+        text-align: center;
+    }
+
+    .slider .card-title {
+        font-size: 1.8em;
+        padding: 50px 0 20px 0;
+    }
+
+    /*footer-Section*/
+    .footer .footer-img img {
+        width: 170px;
+        height: 76px;
+    }
+
+    .footer .row h5 {
+        font-size: 1.3em;
+        margin: 0 0 0 7%;
+    }
+
+    .footer .row .nav-1 {
+        padding-left: 7%;
+    }
+
+    .footer .row .nav-1 .list-1 .anker-1 {
+        font-size: 1.3em;
+    }
+
+    .footer .row form {
+        margin: 10px 0 20px 5%;
+        width: 80%;
+    }
+
+    .footer .row .nav-2 .list-2 {
+        padding: 0 10% 0 0;
+    }
+
+    .f-btn {
+        position: fixed;
+        bottom: -10px;
+        right: -18px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    body {
+        font-size: 10px;
+    }
+
+    .header .navbar-brand img {
+        width: 130px;
+        height: 46px;
+    }
+
+    /*Hero-Section*/
+    .hero .row .picture-1 h3 {
+        position: relative;
+        left: 240px;
+        bottom: 45px;
+    }
+
+    /*Web & Cloud -Section*/
+
+    .cloud .container {
+        padding: 50px 0;
+    }
+
+    .web .image img,
+    .cloud .image img {
+        width: 200px;
+        height: 150px;
+    }
+
+    /*Built-Section*/
+
+    .built .row h4 {
+        font-size: 0.8em;
+    }
+
+    .built .row .first {
+
+        width: 80%;
+        margin: 20px 8% 7px 10%;
+        padding: 50px 5% 20px 5%;
+    }
+
+    /*Industry-Section*/
+    .industry h4 {
+        font-size: 1.3em;
+    }
+
+    .industry h2 {
+        font-size: 2em;
+    }
+
+    /*Slider-SEction*/
+    .slider .row h2 {
+        font-size: 2em;
+    }
+
+    /*last-Section*/
+    .last .row .head {
+        font-size: 2em;
+    }
+
+    .last .row .second,
+    .last .row .third,
+    .last .row .fourth {
+        margin: 10px 0;
+        padding: 50px 7%;
+        display: inline-block;
+        height: 450px;
+    }
+
+    /*footer-Section*/
+    .footer .footer-img img {
+        width: 160px;
+        height: 76px;
+    }
+
+    .footer .row h5 {
+        font-size: 1.2em;
+    }
+
+    .footer .row .nav-1 .list-1 .anker-1 {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width:320px) {
+    body {
+        font-size: 9px;
+    }
+
+    /*  header-section*/
+    .header .navbar-brand img {
+        width: 120px;
+        height: 46px;
+    }
+
+    /*Hero-Section*/
+    .hero .row .one {
+
+        margin-top: 150px;
+    }
+
+    .hero .row .picture-1 h3 {
+        position: relative;
+        left: 214px;
+        bottom: 40px;
+    }
+
+    /*Web & Cloud -Section*/
+
+    .web .image,
+    .cloud .image {
+        margin: 10px 5% 0 0%;
+    }
+
+    /*last-section*/
+    .last .row .second,
+    .last .row .third,
+    .last .row .fourth {
+        margin: 10px 0;
+        padding: 50px 7%;
+        display: inline-block;
+        height: 410px;
+    }
+
+    /*Footer-Section*/
+    .footer .footer-img img {
+        width: 150px;
+        height: 76px;
+    }
+}
